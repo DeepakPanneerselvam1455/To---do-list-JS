@@ -1,0 +1,91 @@
+/* ------------ body background ------------ */
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom, rgba(46, 46, 46, 0.7), rgba(27, 27, 27, 0.7));  /* Dark gradient background */
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ container ------------ */
+.container {
+    padding: 10px;
+    width: 380px;
+    margin: 0 auto;
+    border-radius: 0;  /* Removed rounded corners */
+}
+
+/* ------------ header ------------ */
+.header {
+    width: 380px;
+    height: 200px;
+    background: url('../img/bg2.jpg');  /* Background image */
+    background-size: cover;  /* Ensure the image covers the entire section */
+    background-position: center;  /* Keep image centered */
+    border-radius: 0;  /* Removed rounded corners */
+    position: relative;
+}
+
+/* Align the date and time in the bottom-right corner of the header */
+#date {
+    position: absolute;
+    right: 10px;   /* Align to the right */
+    bottom: 10px;  /* Align to the bottom */
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ content ------------ */
+.content {
+    width: 380px;
+    height: 350px;
+    max-height: 350px;
+    background-color: #FFF;
+    overflow: auto;
+    border-radius: 0;  /* Removed rounded corners */
+}
+
+/* ------------ item ------------ */
+.item {
+    width: 380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;  /* Removed rounded corners */
+}
+
+.item i.co, .item i.de {
+    border-radius: 0;  /* No rounded edges for icons */
+}
+
+.add-to-do {
+    position: relative;
+    width: 360px;
+    height: 40px;
+    background-color: #FFF;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0;  /* Removed rounded corners */
+}
+
+.add-to-do i {
+    position: absolute;
+    font-size: 40px;
+    color: #4162f6;
+}
+
+.add-to-do input {
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 0;  /* No rounded edges for the input field */
+}
